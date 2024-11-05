@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital - Contacto</title>
+    <meta name="author" content="Hospital - contacto">
+    <meta name="description" content="página de contacto del hospital">
+    <meta name="keywords" class="hospital, pagina de contacto, atencion de urgencia, atencion medica, cirugias, atencion general">
+
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="styles/vendors/bootstrap/bootstrap.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-xl navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Hospital</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse show" id="navbarBasic">
+                <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="team.html">Equipo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Reservar</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-------------------------------------------------FORMULARIO---------------------------------------->
+
+        <section id="formulario" class="Cotizacion mt-5">
+          <h2 class="text-center text-uppercase">Contáctanos</h2>
+      
+          <div class="container_form">
+            <div class="row">
+              <div class="col-md-12 pt-5">
+        
+                <form id="form_datos" name="contacto" action="send.php" method="post">
+                  <div class="form-group col-md-12 m-3">
+                    <label for="nombre">Nombre</label>
+                    <input id="name" type="text" class="form-control" name="name" placeholder="Ingrese su nombre" required maxlength="45">
+                  </div>
+        
+                  <div class="form-group col-md-12 m-3">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Ingrese su apellido" required maxlength="45">
+                  </div>
+        
+                  <div class="form-group col-md-12 m-3">
+                    <label for="correo">Email</label>
+                    <input type="email" class="form-control" id="correo" name="correo" placeholder="name@example.com" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}">
+                  </div>
+
+                  <div class="form-group col-md-12 m-3">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Contáctanos"></textarea>
+                  </div>
+        
+                  <div class="form-group col-md-12 m-3">
+                    <button type="submit" class="btn btn-outline-secondary btn-block text-white">Enviar</button>
+                  </div>
+        
+                </form>  
+              </div>                
+            </div>
+          </div>
+        </section>
+
+
+
+    
+
+    <!--SCRIPTS-->
+    <script src="js/jquery/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap/bootstrap.js"></script>
+</body>
+</html>
