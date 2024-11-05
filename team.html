@@ -6,21 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospital - Equipo médico</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link href="styles/vendors/bootstrap/bootstrap.css" rel="stylesheet">
+    <script src="js/jquery/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap/bootstrap.js"></script>
 </head>
 
 <body>
+<!-- Barra de navegación-->
+<header>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Hospital</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic"
+                aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse show" id="navbarBasic">
+                <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Reservar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
 
-    <!-- Barra de Navegación -->
+<body>
 
 
     <!-- Sección de Equipo Médico -->
     <section class="team-section">
+        <h1 class="team-section__title">Conoce a Nuestro Equipo Médico</h1>
+        <div class="team-section__members container">
 
-    <!-- Card doctor 1 -->
-    <!-- Card doctor 2 -->
-    <!-- Card doctor 3 -->
+        <!-- Card doctor 1 -->
+        <div class="team-section__card card">
+            <img src="https://" alt="Foto de Dr. Juan Pérez" class="team-section__image card-img-top">
+            <div class="card-body">
+                <h3 class="team-section__name card-title">Dr. Juan Pérez</h3>
+                <p class="team-section__specialty card-text">Especialista en Cardiología</p>
+                <p class="team-section__description card-text">El Dr. Juan Pérez cuenta con más de 20 años de experiencia en cardiología.</p>
+            </div>
+        </div>
+        <!-- Card doctor 2 -->
+        <!-- Card doctor 3 -->
 
-    <!-- Pie de Página -->
+        <!-- Pie de Página -->
 
 </body>
 
