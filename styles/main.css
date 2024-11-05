@@ -8163,7 +8163,7 @@ button:hover, .btn:hover {
 }
 .team-section__card {
   background-color: #fff;
-  border: 2px solid #3498db;
+  border: none;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 2rem;
@@ -8177,10 +8177,9 @@ button:hover, .btn:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 .team-section__card-image {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  border: 3px solid #495057;
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
   margin-bottom: 1rem;
 }
 .team-section__card-title {
