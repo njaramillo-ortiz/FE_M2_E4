@@ -8107,6 +8107,34 @@ button:hover, .btn:hover {
   background-color: #0056b3;
 }
 
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 1.5rem 0;
+}
+.footer__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer__contact, .footer__address {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+.footer__social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.footer__link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.footer__link:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
 #bienvenida {
   margin-top: 10px;
 }
