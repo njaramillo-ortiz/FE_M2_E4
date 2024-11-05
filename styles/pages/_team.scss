@@ -39,7 +39,7 @@
 
         &:hover {
             transform: translateY(-5px); // hover
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 10px 20px rgba(20, 55, 193, 0.2);
         }
 
         &-image {
@@ -47,8 +47,7 @@
             height: 120px;
             border-radius: 50%;
             border: 3px solid variables.$secondary-color;
-            margin: 0 auto 1rem;
-            object-fit: cover;
+            margin-bottom: 1rem;
         }
 
         &-title {
