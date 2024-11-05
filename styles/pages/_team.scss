@@ -30,9 +30,10 @@
         background-color: #fff;
         border: 2px solid variables.$accent-color;
         @include mixins.border-radius(15px);
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         padding: 1.5rem;
-        width: 280px;
+        width:100%;
+        max-width: 280px;
         text-align: center;
         transition: transform 0.3s, box-shadow 0.3s;
 
