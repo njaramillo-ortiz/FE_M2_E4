@@ -8164,17 +8164,17 @@ button:hover, .btn:hover {
 .team-section__card {
   background-color: #fff;
   border: 2px solid #3498db;
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
+  padding: 2rem;
   width: 100%;
   max-width: 280px;
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 .team-section__card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 .team-section__card-image {
   width: 120px;
