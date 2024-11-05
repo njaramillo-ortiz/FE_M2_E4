@@ -30,7 +30,7 @@
         background-color: #fff;
         border: 2px solid variables.$accent-color;
         @include mixins.border-radius(15px);
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
         padding: 1.5rem;
         width: 280px;
         text-align: center;
@@ -42,26 +42,26 @@
         }
 
         &-image {
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 120px;
             border-radius: 50%;
             border: 3px solid variables.$secondary-color;
             margin-bottom: 1rem;
         }
 
         &-title {
-            font-size: 1.25rem;
+            font-size: 1.5rem;
             color: variables.$secondary-color; // Color secundario para el nombre del doctor
             margin-bottom: 0.5rem;
         }
 
         &-specialty {
-            font-size: 1rem;
+            font-size: 1.1rem;
             color: variables.$text-color; // Color de texto principal
         }
 
         &-description {
-            font-size: 0.9rem;
+            font-size: 1rem;
             color: variables.$text-muted-color; // Color de texto secundario
         }
     }
@@ -81,10 +81,7 @@
             font-size: 1.5rem;
         }
 
-        &__card-title {
-            font-size: 1.25rem;
-        }
-
+        &__card-title,
         &__card-specialty,
         &__card-description {
             font-size: 0.85rem;

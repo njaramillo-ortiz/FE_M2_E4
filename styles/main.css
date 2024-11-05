@@ -8165,7 +8165,7 @@ button:hover, .btn:hover {
   background-color: #fff;
   border: 2px solid #3498db;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   padding: 1.5rem;
   width: 280px;
   text-align: center;
@@ -8176,23 +8176,23 @@ button:hover, .btn:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .team-section__card-image {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: 3px solid #495057;
   margin-bottom: 1rem;
 }
 .team-section__card-title {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: #495057;
   margin-bottom: 0.5rem;
 }
 .team-section__card-specialty {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #212529;
 }
 .team-section__card-description {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #6c757d;
 }
 
@@ -8207,10 +8207,7 @@ button:hover, .btn:hover {
   .team-section__title {
     font-size: 1.5rem;
   }
-  .team-section__card-title {
-    font-size: 1.25rem;
-  }
-  .team-section__card-specialty, .team-section__card-description {
+  .team-section__card-title, .team-section__card-specialty, .team-section__card-description {
     font-size: 0.85rem;
   }
 }/*# sourceMappingURL=main.css.map */
