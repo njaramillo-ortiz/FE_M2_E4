@@ -1,16 +1,14 @@
-@use "../abstracts/variables";
-@use "../abstracts/mixins";
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
 
-
-// Estilos equipo médico
 .team-section {
     padding: 2rem;
-    background-color: $background-color;
+    background-color: variables.$background-color; // Fondo claro para la sección
 
-    &__header {
+    &__title {
         text-align: center;
+        color: variables.$primary-color; // Color principal para el título
         font-size: 2rem;
-        color: $primary-color;
         margin-bottom: 1.5rem;
     }
 
@@ -23,37 +21,65 @@
 
     &__card {
         background-color: #fff;
-        @include mixins.border-radius(15px);
-        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s, box-shadow 0.3s;
+        border: 2px solid variables.$accent-color; 
+        @include mixins.border-radius(15px); 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
         padding: 1.5rem;
         width: 280px;
         text-align: center;
+        transition: transform 0.3s, box-shadow 0.3s;
 
         &:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 20px rgba(0, 0, 0, 0.15);
+            transform: translateY(-5px); // hover
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
         &-image {
             width: 100px;
             height: 100px;
             border-radius: 50%;
+            border: 3px solid variables.$secondary-color;
             margin-bottom: 1rem;
-            border: 3px solid $accent-color;
         }
 
         &-title {
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: $secondary-color;
+            font-size: 1.25rem;
+            color: variables.$secondary-color; // Color secundario para el nombre del doctor
             margin-bottom: 0.5rem;
         }
 
-        &-text {
+        &-specialty {
             font-size: 1rem;
-            color: $text-muted-color;
+            color: variables.$text-color; // Color de texto principal
+        }
+
+        &-description {
+            font-size: 0.9rem;
+            color: variables.$text-muted-color; // Color de texto secundario
         }
     }
 }
 
+
+@media (max-width: 768px) {
+    .team-section {
+        padding: 1rem;
+
+        &__card {
+            width: 100%; 
+            padding: 1rem;
+        }
+
+        &__title {
+            font-size: 1.5rem; 
+        }
+
+        &__card-title {
+            font-size: 1.25rem;
+        }
+
+        &__card-specialty, &__card-description {
+            font-size: 0.85rem; 
+        }
+    }
+}
