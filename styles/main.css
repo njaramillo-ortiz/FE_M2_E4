@@ -8119,6 +8119,7 @@ button:hover, .btn:hover {
 .footer__contact, .footer__address {
   font-size: 0.9rem;
   margin: 0.5rem 0;
+  color: #ffffff;
 }
 .footer__social {
   display: flex;
