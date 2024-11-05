@@ -8179,7 +8179,7 @@ button:hover, .btn:hover {
 }
 .team-section__card-image {
   width: 100%;
-  height: 180px;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 15px 15px 0 0;
