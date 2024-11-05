@@ -1,0 +1,12 @@
+@use "../vendors/bootstrap/bootstrap.css";
+@use "../abstracts/mixins";
+@use "../abstracts/_variables";
+
+section
+{
+    .container
+    {
+        background-color: variables.$primary-color;
+        @include mixins.border-radius(10px);
+    }
+}
