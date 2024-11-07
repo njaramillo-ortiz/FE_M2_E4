@@ -1,4 +1,31 @@
-nav
+@use "../abstracts/_variables";
+@use "../abstracts/mixins";
+
+.nav__reserve
 {
-    
+    background-color: variables.$primary-color;
+    @include mixins.border-radius(10px);
+
+    #nav__reserve--text
+    {
+        color: variables.$text-light-color;
+    }
+}
+
+@media (min-width: 1200px) 
+{
+    .nav__reserve
+    {
+        position: absolute;
+        right: 0;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 1200px) 
+{
+    .nav__item
+    {
+        padding: 0px 5px;
+    }
 }
