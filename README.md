@@ -51,7 +51,7 @@ Mixins: Se utilizaron mixins para reutilizar bloques de código, como el borde r
 
 ## Personalización Bootstrap
 
-    En este proyecto, Bootstrap se utilizó principalmente para gestionar la grilla de diseño responsivo. Las clases de la grid system de Bootstrap ayudaron a dividir el contenido en columnas y aseguraron que el sitio fuera adaptable a diferentes tamaños de pantalla.
+ En este proyecto, Bootstrap se utilizó principalmente para gestionar la grilla de diseño responsivo. Las clases de la grid system de Bootstrap ayudaron a dividir el contenido en columnas y aseguraron que el sitio fuera adaptable a diferentes tamaños de pantalla.
 
 Aunque se usó Bootstrap para la parte de la grilla, se evitó el uso del resto de las clases de diseño de Bootstrap. En su lugar, se personalizó el resto del proyecto con SASS, lo que permitió un mayor control sobre los estilos y la apariencia.
 
@@ -65,14 +65,13 @@ Impacto del Footer: El footer está presente de manera uniforme en todas las pá
 ## Colores Usados
 Se definieron una serie de colores para ser utilizados en todo el proyecto, los cuales están definidos en el archivo _variables.scss. Los colores clave son:
 
-$primary-color: #007bff (usado para encabezados y botones)
-$secondary-color: #495057 (para subtítulos y otros elementos de contraste)
-$background-color: #f8f9fa (fondo claro para la mayoría de las secciones)
-$dark-color: #343a40 (fondo oscuro para el footer)
-$text-light-color: #ffffff (texto blanco para el footer)
-$link-color: #007bff (para enlaces)
-$link-hover-color: #0056b3 (para el hover de enlaces)
-Estos colores se aplican de manera consistente en todo el sitio web, asegurando una identidad visual coherente.
+- **$primary-color**: `#007bff` (usado para encabezados y botones)
+- **$secondary-color**: `#495057` (para subtítulos y otros elementos de contraste)
+- **$background-color**: `#f8f9fa` (fondo claro para la mayoría de las secciones)
+- **$dark-color**: `#343a40` (fondo oscuro para el footer)
+- **$text-light-color**: `#ffffff` (texto blanco para el footer)
+- **$link-color**: `#007bff` (para enlaces)
+- **$link-hover-color**: `#0056b3` (para el hover de enlaces)
 
 ## Creditos
 
