@@ -55,12 +55,18 @@ Mixins: Se utilizaron mixins para reutilizar bloques de código, como el borde r
 
 Aunque se usó Bootstrap para la parte de la grilla, se evitó el uso del resto de las clases de diseño de Bootstrap. En su lugar, se personalizó el resto del proyecto con SASS, lo que permitió un mayor control sobre los estilos y la apariencia.
 
+##Navbar en Todo el Proyecto
+El navbar contiene todos los link necesarios para la navegación y acceso a las distintas páginas. Además de los links la barra de navegación contiene una botón que nos lleva directo a las reservas.
+
 ## Footer en Todo el Proyecto
 El footer fue diseñado para ser consistente en todo el sitio. Se usó la misma estructura de clases y estilos en todas las páginas para asegurar la uniformidad.
 
 Estructura del Footer: El footer se encuentra en todas las páginas del sitio, con información de contacto, dirección y enlaces a las redes sociales. Además, el fondo oscuro y los textos claros permiten un contraste adecuado, mejorando la accesibilidad.
 
 Impacto del Footer: El footer está presente de manera uniforme en todas las páginas del sitio, y cualquier cambio que se realice en los estilos del footer se reflejará automáticamente en todas las páginas.
+
+## Páginas
+Son 3 las páginas solicitadas, index, team y contact. Cada una utiliza un archivo scss respectivo donde están las clases de los elementos presentes en el cuerpo de la página. Cada uno de estos archivos utiliza elementos presentes en las otras carpetas sass, reutilizando el código y generando un enlace directo a las diferentes clases, que en caso de ser necesario se modifican 1 sola vez y se visualiza en el proyecto completo.
 
 ## Colores Usados
 Se definieron una serie de colores para ser utilizados en todo el proyecto, los cuales están definidos en el archivo _variables.scss. Los colores clave son:
