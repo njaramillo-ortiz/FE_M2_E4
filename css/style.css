@@ -8981,6 +8981,7 @@ button:hover, .btn:hover {
   text-align: left;
   top: 350px;
   margin: 0px 50px;
+  color: #ffffff;
 }
 
 .footer {
@@ -9070,6 +9071,11 @@ button:hover, .btn:hover {
   color: #ffffff;
 }
 
+.nav__logo {
+  max-height: 4rem;
+  width: auto;
+}
+
 @media (min-width: 1200px) {
   .nav__reserve {
     position: absolute;
@@ -9088,7 +9094,10 @@ button:hover, .btn:hover {
   display: flex;
   justify-content: center;
   align-content: center;
-  /*   background-color: $white;*/
+  background-color: #c8c9ca;
+}
+#formulario__title {
+  color: #007bff;
 }
 
 .container_form {
@@ -9102,9 +9111,9 @@ button:hover, .btn:hover {
 button, .btn {
   padding: 10px 20px;
   border-radius: 5px;
-  /*  &:hover {
-        color: $link-hover-color;
-    }*/
+}
+button:hover, .btn:hover {
+  color: #0056b3;
 }
 
 .mapa {
