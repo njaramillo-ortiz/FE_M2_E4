@@ -9147,8 +9147,8 @@ button, .btn {
   text-align: center;
   margin-bottom: 1.5rem;
   display: flex;
+  max-width: 22rem;
   width: auto;
-  margin: 0px 5px;
 }
 .services-section__card-image {
   -webkit-border-radius: 10px;
@@ -9190,8 +9190,8 @@ button, .btn {
   padding: 2rem;
   text-align: center;
   margin-bottom: 1.5rem;
-  width: 25%;
-  max-height: 150px;
+  max-width: 15rem;
+  max-height: 175px;
   margin: 0px 5px;
 }
 
@@ -9200,7 +9200,7 @@ button, .btn {
     flex-direction: column;
   }
   .services-section__card {
-    margin: 5px 0px;
+    margin: 4px 0px;
   }
   .reviews-section__grid {
     flex-direction: column;
@@ -9209,6 +9209,30 @@ button, .btn {
     margin: 5px 0px;
     width: 100%;
     max-height: 125px;
+  }
+}
+@media (max-width: 468px) {
+  .services-section__grid {
+    flex-direction: column;
+  }
+  .services-section__card {
+    margin: 5px 0px;
+    width: 100%;
+  }
+  .services-section__card-image {
+    max-width: 180px;
+    max-height: 130px;
+    width: auto;
+    height: auto;
+  }
+  .services-section__card-body {
+    max-width: 50%;
+  }
+  .services-section__card-title {
+    font-size: 1.25rem;
+  }
+  .reviews-section__card {
+    max-height: 150px;
   }
 }
 .team-section {
