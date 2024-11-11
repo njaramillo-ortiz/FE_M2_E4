@@ -7,8 +7,11 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    background-color: variables.$background-color-dark;
 
- /*   background-color: $white;*/
+    &__title {
+        color: variables.$primary-color;
+    }
 }
 
 .container_form {
@@ -23,9 +26,9 @@ button, .btn {
     padding: 10px 20px;
     border-radius: 5px;
 
-  /*  &:hover {
-        color: $link-hover-color;
-    }*/
+    &:hover {
+        color: variables.$link-hover-color;
+    }
 }
 
 .mapa {
